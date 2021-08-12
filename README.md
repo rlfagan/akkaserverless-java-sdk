@@ -1,4 +1,6 @@
 # Akka Serverless Java SDK
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fakkaserverless-java-sdk.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fakkaserverless-java-sdk?ref=badge_shield)
+
 
 For more information see the documentation for [implementing Akka Serverless services in Java](https://developer.lightbend.com/docs/akka-serverless/java/index.html).
 
@@ -27,3 +29,6 @@ For more information see the documentation for [implementing Akka Serverless ser
 # License
 
 The Akka Serverless Java SDK is Open Source and available under the [Apache 2 License](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fakkaserverless-java-sdk.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fakkaserverless-java-sdk?ref=badge_large)
