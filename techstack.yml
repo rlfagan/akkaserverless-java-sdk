@@ -1,0 +1,288 @@
+repo_name: rlfagan/akkaserverless-java-sdk
+report_id: c3fc44b9b648856b0aa8706373fc6ed3
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T22:59:16+00:00'
+requested_by: raboof
+provider: github
+branch: main
+detected_tools_count: 22
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk
+  detection_source: Repo Metadata
+- name: Akka
+  description: Build powerful concurrent &amp; distributed applications more easily
+  website_url: http://akka.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1773/bxLhidly.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/samples/java-customer-registry/src/main/resources/application.conf
+  detection_source: samples/java-customer-registry/src/main/resources/application.conf
+  last_updated_by: Patrik Nordwall
+  last_updated_on: 2021-04-27 14:28:55.000000000 Z
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/build.sbt
+  detection_source: build.sbt
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-05-25 22:05:10.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/build.sbt
+  detection_source: build.sbt
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-05-25 22:05:10.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Renato Cavalcanti
+  last_updated_on: 2021-07-14 19:44:28.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/.github/workflows/release-drafter.yml
+  detection_source: ".github/workflows/release-drafter.yml"
+  last_updated_by: Enno Runne
+  last_updated_on: 2021-07-06 09:32:27.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/docs/src/modules/java/examples/archetype/first-service/pom.xml
+  detection_source: docs/src/modules/java/examples/archetype/first-service/pom.xml
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-07-01 22:59:07.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/docs/src/modules/java/examples/archetype/first-service/pom.xml
+  detection_source: docs/src/modules/java/examples/archetype/first-service/pom.xml
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-07-01 22:59:07.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/docs/src/modules/java/examples/archetype/first-service/pom.xml
+  detection_source: docs/src/modules/java/examples/archetype/first-service/pom.xml
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-07-01 22:59:07.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk
+  detection_source: Repo Metadata
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.2.3
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/docs/src/modules/java/examples/archetype/first-service/pom.xml
+  detection_source: docs/src/modules/java/examples/archetype/first-service/pom.xml
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-07-01 22:59:07.000000000 Z
+  vulnerabilities:
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: huntc
+  last_updated_on: 2021-01-07 05:50:39.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/docs/src/modules/java/examples/archetype/first-service/pom.xml
+  detection_source: docs/src/modules/java/examples/archetype/first-service/pom.xml
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-07-01 22:59:07.000000000 Z
+- name: org.apache.maven.plugin-testing:maven-plugin-testing-harness
+  description: The Maven Plugin Testing Harness provides mechanisms to manage tests
+    on Mojo
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: Arnout Engelen
+  last_updated_on: 2021-06-23 10:59:41.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-annotations
+  description: Java 5 annotations to use in Mojos
+  version: 3.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: Arnout Engelen
+  last_updated_on: 2021-06-23 10:59:41.000000000 Z
+- name: org.apache.maven:maven-artifact
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: Renato Cavalcanti
+  last_updated_on: 2021-07-02 09:09:11.000000000 Z
+- name: org.apache.maven:maven-compat
+  description: Maven classes maintained as compatibility layer for tools done with
+    Maven 2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: Arnout Engelen
+  last_updated_on: 2021-06-23 10:59:41.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: Arnout Engelen
+  last_updated_on: 2021-06-23 10:59:41.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/maven-java/akkaserverless-maven-plugin/pom.xml
+  detection_source: maven-java/akkaserverless-maven-plugin/pom.xml
+  last_updated_by: Arnout Engelen
+  last_updated_on: 2021-06-23 10:59:41.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/akkaserverless-java-sdk/blob/main/docs/src/modules/java/examples/archetype/first-service/pom.xml
+  detection_source: docs/src/modules/java/examples/archetype/first-service/pom.xml
+  last_updated_by: Peter Vlugter
+  last_updated_on: 2021-07-01 22:59:07.000000000 Z
